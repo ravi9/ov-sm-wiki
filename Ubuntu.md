@@ -3,7 +3,7 @@ You may need to install some additional libraries on Ubuntu Linux. These steps w
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install python3-venv build-essential python3-dev
+sudo apt-get install python3-venv build-essential python3-dev git-all
 ```
 
 After this, you can follow the instructions in the [README](https://github.com/openvinotoolkit/openvino_notebooks). In step 2, make sure to type `python3 -m venv openvino_env`. `python3` will point to the right Python version. 
