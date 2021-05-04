@@ -14,7 +14,7 @@ Python 3.6 and 3.7 are also supported.
 
 ```bash
 cd openvino_notebooks
-conda -n create openvino_env python=3.8
+conda create -n openvino_env python=3.8
 ```
 
 ### Step 3: Activate the Environment
