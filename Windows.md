@@ -8,7 +8,7 @@ https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
 
 ## 2. Install GIT. 
 
-* Download [GIT](https://git-scm.com/download/mac) from [this link](https://sourceforge.net/projects/git-osx-installer/files/git-2.31.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
+* Download [GIT](https://git-scm.com/download/mac) from [this link](https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
 
-After installing Python3 and Git, you can follow the instructions in the main README to [install the notebooks](https://github.com/openvinotoolkit/openvino_notebooks). Note that in the step to create the virtual environment, you need to type `python3`.
+After installing Python3 and Git, you can follow the instructions in the main README to [install OpenVINO and the notebooks](https://github.com/openvinotoolkit/openvino_notebooks). 
