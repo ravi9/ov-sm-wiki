@@ -17,3 +17,7 @@ These links go to pages that include instructions on how to install OpenVINO not
 ### Guides for using specific Python distributions
 
 * [Installation with Anaconda/Miniconda](Conda)
+
+### Guides for Cloud Service Providers
+
+* [Installation with AzureML](AzureML)
