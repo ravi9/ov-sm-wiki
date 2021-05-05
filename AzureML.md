@@ -1,5 +1,3 @@
-This guide is a work in progress. 
-
 ### Add a Compute Instance
 See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python). Pick any CPU instance. 
 
