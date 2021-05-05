@@ -38,6 +38,11 @@ cd ~/cloudfiles/code/Users
 git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 ```
 
+### Change Directory to openvino_notebooks
+```
+cd openvino_notebooks
+```
+
 ### Install the Packages
 ```bash
 # Upgrade pip to the latest version.
