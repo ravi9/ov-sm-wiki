@@ -56,6 +56,6 @@ pip install -r requirements.txt --use-deprecated=legacy-resolver
 python -m ipykernel install --user --name openvino_env
 ```
 
-### Step 12: Launch the Notebooks in Azure ML!
+### Step 12: Run the Notebooks!
 See [instructions here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks) on how to run Notebooks in Azure ML Studio. 
 
