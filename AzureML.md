@@ -1,5 +1,6 @@
-### Add a Compute Instance
-See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python), then pick any CPU-based instance (No GPU required). Once the instance is running, open the terminal and run the steps below.  
+### Step 0: Add a Compute Instance
+See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python), then pick any CPU-based instance (No GPU required). Once the instance is running, open the terminal and run the steps below.
+<img width="392" alt="terminal" src="https://user-images.githubusercontent.com/15709723/117379014-69952000-ae8b-11eb-87ca-0c6d8cd66754.png">
 
 ### Step 1: Deactivate Conda
 For OpenVINO Notebooks, we recommend using virtualenv instead of Anaconda
@@ -57,5 +58,5 @@ python -m ipykernel install --user --name openvino_env
 ```
 
 ### Step 12: Run the Notebooks!
-See [instructions here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks) on how to run Notebooks in Azure ML Studio. 
-
+To run the notebooks, click on Notebooks and refresh your Files: 
+<img width="130" alt="refresh" src="https://user-images.githubusercontent.com/15709723/117379072-8893b200-ae8b-11eb-8413-6a32638a3026.png">
