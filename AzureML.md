@@ -1,49 +1,49 @@
 ### Add a Compute Instance
-See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python). Pick any CPU instance. 
+See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python), then pick any CPU-based instance (No GPU required). Once the instance is running, open the terminal and run the steps below.  
 
-### Deactivate Conda
+### Step 1: Deactivate Conda
 For OpenVINO Notebooks, we recommend using virtualenv instead of Anaconda
 ```
 conda deactivate
 ```
 
-### Install python3-venv
+### Step 2: Install python3-venv
 ```
 sudo apt install python3-venv
 ```
 
-### Change Directory to the Home Folder
+### Step 3: Change Directory to the Home Folder
 ```
 cd ~
 ```
 
-### Create a Virtual Environment
+### Step 4: Create a Virtual Environment
 ```bash
 python3 -m venv openvino_env
 ```
 
-### Activate the Environment
+### Step 6: Activate the Environment
 ```bash
 source openvino_env/bin/activate
 ```
 
-### Change Directory to Users Folder
+### Step 7: Change Directory to Users Folder
 To access notebooks from the web console, they must be in the Users folder
 ```
 cd ~/cloudfiles/code/Users
 ```
 
-### Clone OpenVINO Notebooks
+### Step 8: Clone OpenVINO Notebooks
 ```bash
 git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 ```
 
-### Change Directory to openvino_notebooks
+### Step 9: Change Directory to openvino_notebooks
 ```
 cd openvino_notebooks
 ```
 
-### Install the Packages
+### Step 10: Install the Packages
 ```bash
 # Upgrade pip to the latest version.
 # Use pip's legacy dependency resolver to avoid dependency conflicts
@@ -51,11 +51,11 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-### Install the virtualenv Kernel in Jupyter
+### Step 11: Install the virtualenv Kernel in Jupyter
 ```bash
 python -m ipykernel install --user --name openvino_env
 ```
 
-### Launch the Notebooks in Azure ML!
+### Step 12: Launch the Notebooks in Azure ML!
 See [instructions here](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks) on how to run Notebooks in Azure ML Studio. 
 
