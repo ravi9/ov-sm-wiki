@@ -1,6 +1,6 @@
 ### Step 0: Add a Compute Instance
 See instructions to [add an Azure compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python), then pick any CPU-based instance (No GPU required). <br>
-<img width="265" alt="compute" src="https://user-images.githubusercontent.com/15709723/117379816-2cca2880-ae8d-11eb-9cc8-5996f35db8dc.png">
+<img width="145" alt="create" src="https://user-images.githubusercontent.com/15709723/117380053-c1348b00-ae8d-11eb-9e71-990712d04a61.png">
 
 Once the instance is running, open the terminal and run the steps below.<br>
 <img width="392" alt="terminal" src="https://user-images.githubusercontent.com/15709723/117379014-69952000-ae8b-11eb-87ca-0c6d8cd66754.png">
