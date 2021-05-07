@@ -63,11 +63,6 @@ To run the notebooks, click on Notebooks and refresh your Files:
 
 <img width="130" alt="refresh" src="https://user-images.githubusercontent.com/15709723/117379072-8893b200-ae8b-11eb-8413-6a32638a3026.png">
 
-### Step 12: Run the Notebooks!
-To run the notebooks, click on Notebooks and refresh your Files: 
-
-<img width="130" alt="refresh" src="https://user-images.githubusercontent.com/15709723/117379072-8893b200-ae8b-11eb-8413-6a32638a3026.png">
-
 Select a notebook: 
 
 <img width="266" alt="hello-world" src="https://user-images.githubusercontent.com/15709723/117379590-9e55a700-ae8c-11eb-9b3e-178543b82893.png">
