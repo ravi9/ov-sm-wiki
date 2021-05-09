@@ -18,38 +18,33 @@ conda create --name openvino_env python=3.6 -y
 conda activate openvino_env
 ```
 
-### Step 3: Install pip and ipykernel
-```bash
-conda install pip ipykernel -y
-```
-
-### Step 4: Clone OpenVINO Notebooks
+### Step 3: Clone OpenVINO Notebooks
 ```bash
 git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 ```
 
-### Step 5: Change Directory to openvino_notebooks
+### Step 4: Change Directory to openvino_notebooks
 ```bash
 cd openvino_notebooks
 ```
 
-### Step 6: Upgrade pip and Install Requirements
+### Step 5: Upgrade pip and Install Requirements
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-### Step 7: Add openvino_env to PATH
+### Step 6: Add openvino_env to PATH
 ```bash
 set PATH="/anaconda/envs/openvino_env/bin;%PATH%"
 ```
 
-### Step 8: Install the virtualenv Kernel in Jupyter
+### Step 7: Install the virtualenv Kernel in Jupyter
 ```bash
 python -m ipykernel install --user --name openvino_env
 ```
 
-### Step 9: Run the Notebooks!
+### Step 8: Run the Notebooks!
 To run the notebooks, click on Notebooks and refresh your Files: <br>
 <img width="130" alt="azure3" src="https://user-images.githubusercontent.com/15709723/117559444-262ce400-b03a-11eb-9540-51c03c3bcc91.png">
 
