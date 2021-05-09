@@ -41,7 +41,7 @@ pip install -r requirements.txt --use-deprecated=legacy-resolver
 
 ### Step 7: Add openvino_notebooks to PATH
 ```bash
-set PATH=“/anaconda/envs/openvino_env/bin;%PATH%”
+set PATH="/anaconda/envs/openvino_env/bin;%PATH%"
 ```
 
 ### Step 8: Install the virtualenv Kernel in Jupyter
