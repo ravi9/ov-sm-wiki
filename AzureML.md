@@ -52,4 +52,4 @@ Select a notebook: <br>
 <img width="266" alt="azure4" src="https://user-images.githubusercontent.com/15709723/117559447-2af19800-b03a-11eb-8bd6-8813b7a8814f.png">
 
 Then run all cells: <br>
-<img width="258" alt="azure5" src="https://user-images.githubusercontent.com/15709723/117559450-304ee280-b03a-11eb-9b79-3eedd3942474.png">
+<img width="558" alt="azure6a" src="https://user-images.githubusercontent.com/15709723/117580973-37640800-b0af-11eb-91ae-7194b9b4e505.png">
