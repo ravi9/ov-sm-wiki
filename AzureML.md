@@ -39,7 +39,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-### Step 7: Add openvino_notebooks to PATH
+### Step 7: Add openvino_env to PATH
 ```bash
 set PATH="/anaconda/envs/openvino_env/bin;%PATH%"
 ```
