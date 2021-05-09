@@ -1,5 +1,5 @@
 ## Instructions to Run the Notebooks in Azure ML Studio
-The steps below assume you have an Azure account and access to the [Azure ML Studio](https://ml.azure.com/). 
+The steps below assume that you have an Azure account and access to the [Azure ML Studio](https://ml.azure.com/). 
 
 ### Step 0: Add a Compute Instance
 In Azure ML Studio, [add a compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python) and pick any CPU-based instance (No GPU required). <br>
