@@ -5,8 +5,9 @@ The steps below assume that you have an Azure account and access to the [Azure M
 In Azure ML Studio, [add a compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python) and pick any CPU-based instance (No GPU required). <br>
 <img width="657" alt="azure1" src="https://user-images.githubusercontent.com/15709723/117559437-17463180-b03a-11eb-9e8d-d4539d1502f2.png">
 
-Once the instance is running, open the terminal and run the steps below.<br>
-<img width="804" alt="azure2" src="https://user-images.githubusercontent.com/15709723/117559439-1ca37c00-b03a-11eb-8fc3-3f9b6434275d.png">
+Once the compute instance is running, open the terminal and then run Steps 1-8 below.
+<img width="900" alt="azure2a" src="https://user-images.githubusercontent.com/15709723/117582205-b6f4d580-b0b5-11eb-9b83-eb2004ad9b19.png">
+
 
 ### Step 1: Create a Conda Environment
 ```bash
