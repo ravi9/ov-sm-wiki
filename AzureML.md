@@ -3,10 +3,10 @@ The steps below assume you have an Azure account and access to the [Azure ML Stu
 
 ### Step 0: Add a Compute Instance
 In Azure ML Studio, [add a compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python) and pick any CPU-based instance (No GPU required). <br>
-<img width="657" alt="createnew" src="https://user-images.githubusercontent.com/15709723/117381499-12924980-ae91-11eb-9fab-5d396316d85f.png">
+<img width="657" alt="azure1" src="https://user-images.githubusercontent.com/15709723/117559437-17463180-b03a-11eb-9e8d-d4539d1502f2.png">
 
 Once the instance is running, open the terminal and run the steps below.<br>
-<img width="804" alt="final" src="https://user-images.githubusercontent.com/15709723/117381662-6f8dff80-ae91-11eb-95ad-0674375d2e10.png">
+<img width="804" alt="azure2" src="https://user-images.githubusercontent.com/15709723/117559439-1ca37c00-b03a-11eb-8fc3-3f9b6434275d.png">
 
 ### Step 1: Create a Conda Environment
 ```bash
@@ -51,10 +51,10 @@ python -m ipykernel install --user --name openvino_env
 
 ### Step 9: Run the Notebooks!
 To run the notebooks, click on Notebooks and refresh your Files: <br>
-<img width="130" alt="refresh" src="https://user-images.githubusercontent.com/15709723/117379072-8893b200-ae8b-11eb-8413-6a32638a3026.png">
+<img width="130" alt="azure3" src="https://user-images.githubusercontent.com/15709723/117559444-262ce400-b03a-11eb-9540-51c03c3bcc91.png">
 
 Select a notebook: <br>
-<img width="266" alt="hello-world" src="https://user-images.githubusercontent.com/15709723/117379590-9e55a700-ae8c-11eb-9b3e-178543b82893.png">
+<img width="266" alt="azure4" src="https://user-images.githubusercontent.com/15709723/117559447-2af19800-b03a-11eb-8bd6-8813b7a8814f.png">
 
 Then run all cells: <br>
-<img width="258" alt="run" src="https://user-images.githubusercontent.com/15709723/117379639-ba594880-ae8c-11eb-8913-088721ac1a79.png">
+<img width="258" alt="azure5" src="https://user-images.githubusercontent.com/15709723/117559450-304ee280-b03a-11eb-9b79-3eedd3942474.png">
