@@ -5,62 +5,48 @@
 Once the instance is running, open the terminal and run the steps below.<br>
 <img width="804" alt="final" src="https://user-images.githubusercontent.com/15709723/117381662-6f8dff80-ae91-11eb-95ad-0674375d2e10.png">
 
-### Step 1: Deactivate Conda
-For OpenVINO Notebooks, we recommend using virtualenv instead of Anaconda
-```
-conda deactivate
-```
-
-### Step 2: Install python3-venv
-```
-sudo apt install python3-venv
-```
-
-### Step 3: Change Directory to the Home Folder
-```
-cd ~
-```
-
-### Step 4: Create a Virtual Environment
+### Step 1: Create a Conda Environment
 ```bash
-python3 -m venv openvino_env
+conda create --name openvino_env python=3.6 -y
 ```
 
-### Step 6: Activate the Environment
+### Step 2: Activate the Environment
 ```bash
-source openvino_env/bin/activate
+conda activate openvino_env
 ```
 
-### Step 7: Change Directory to Users Folder
-To access notebooks from the web console, they must be in the Users folder
-```
-cd ~/cloudfiles/code/Users
+### Step 3: Install pip and ipykernel
+```bash
+conda install pip ipykernel -y
 ```
 
-### Step 8: Clone OpenVINO Notebooks
+### Step 4: Clone OpenVINO Notebooks
 ```bash
 git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 ```
 
-### Step 9: Change Directory to openvino_notebooks
-```
+### Step 5: Change Directory to openvino_notebooks
+```bash
 cd openvino_notebooks
 ```
 
-### Step 10: Install the Packages
+### Step 6: Upgrade pip and Install Requirements
 ```bash
-# Upgrade pip to the latest version.
-# Use pip's legacy dependency resolver to avoid dependency conflicts
 python -m pip install --upgrade pip
 pip install -r requirements.txt --use-deprecated=legacy-resolver
 ```
 
-### Step 11: Install the virtualenv Kernel in Jupyter
+### Step 7: Add openvino_notebooks to PATH
+```bash
+set PATH=“/anaconda/envs/openvino_env/bin;%PATH%”
+```
+
+### Step 8: Install the virtualenv Kernel in Jupyter
 ```bash
 python -m ipykernel install --user --name openvino_env
 ```
 
-### Step 12: Run the Notebooks!
+### Step 9: Run the Notebooks!
 To run the notebooks, click on Notebooks and refresh your Files: <br>
 <img width="130" alt="refresh" src="https://user-images.githubusercontent.com/15709723/117379072-8893b200-ae8b-11eb-8413-6a32638a3026.png">
 
