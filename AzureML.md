@@ -46,7 +46,7 @@ python -m ipykernel install --user --name openvino_env
 
 ### Step 8: Run the Notebooks!
 To run the notebooks, click on Notebooks and refresh your Files: <br>
-<img width="130" alt="azure3" src="https://user-images.githubusercontent.com/15709723/117559444-262ce400-b03a-11eb-9540-51c03c3bcc91.png">
+<img width="546" alt="azure3a" src="https://user-images.githubusercontent.com/15709723/117580814-a725c300-b0ae-11eb-93bf-007779c26075.png">
 
 Select a notebook: <br>
 <img width="266" alt="azure4" src="https://user-images.githubusercontent.com/15709723/117559447-2af19800-b03a-11eb-8bd6-8813b7a8814f.png">
