@@ -10,7 +10,7 @@ git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 
 ### Step 2: Create a Conda Environment with Python 3.8
 
-Python 3.6 and 3.7 are also supported.
+Python 3.6 and 3.7 are also supported. On Ubuntu 18, Python 3.6 is recommended, as it does not require installation of additional Python libraries.
 
 ```bash
 cd openvino_notebooks
