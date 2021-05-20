@@ -42,6 +42,8 @@ python -m ipykernel install --user --name openvino_env
 
 ### Step 6 (conda): Add the OpenVINO library to your PATH
 
+> This step is only for Windows. Skip this step for macOS and Linux.
+
 Depending on your Conda installation, this step may be required at the moment for conda environments on Windows. In a future OpenVINO version this should no longer be necessary.
 
 The command below assumes that Miniconda is installed in the default location: `C:\Users\<username>\Minoconda3`, where `<username>` is your Windows username. If you installed Anaconda, replace Miniconda3 with Anaconda3. If you installed Anaconda or Minoconda in a different location, you can run `python -c "import os,sys;print(os.path.dirname(sys.executable))"` to find the path to `openvino_env`.
