@@ -21,7 +21,7 @@ After installing Python 3 and Git, run each step below using _Command Prompt (cm
 
 ## 4. Create a Virtual Environment
 
-> **NOTE:** If you already installed openvino-dev and activated the openvino_env environment, you can skip to [Step 3](#step-3-clone-the-repository). If you use Anaconda, please see the [Conda guide](https://github.com/openvinotoolkit/openvino_notebooks/wiki/Conda).
+> **NOTE:** If you already installed openvino-dev and activated the openvino_env environment, you can skip to [Step 6](#6-clone-the-repository). If you use Anaconda, please see the [Conda guide](https://github.com/openvinotoolkit/openvino_notebooks/wiki/Conda).
 
 ```bash
 python -m venv openvino_env
