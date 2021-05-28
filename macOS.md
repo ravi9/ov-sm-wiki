@@ -1,4 +1,4 @@
-Skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
+Skip Steps 1 and 2 if you already installed Python 3 and Git on macOS.
 
 ### 1. Install Python
 
