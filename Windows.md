@@ -1,4 +1,4 @@
-These steps explain how to install Python3 and Git on Windows.
+Skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
 
 ## 1. Install Python
 
