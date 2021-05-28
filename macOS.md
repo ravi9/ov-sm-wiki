@@ -68,6 +68,6 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 ## Troubleshooting
 
-* If you have Apple M1, please see the [community discussion page](https://github.com/openvinotoolkit/openvino_notebooks/discussions/10)
+* If you have Apple M1, please see the [community discussion page](https://github.com/openvinotoolkit/openvino_notebooks/discussions/10) about using Rosetta* 2
 
 * If you use Anaconda or Minoconda, see the [[Conda]] wiki page.
