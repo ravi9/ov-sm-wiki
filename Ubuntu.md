@@ -69,3 +69,6 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 * On Ubuntu 18.04, `python3-dev` installs the required libraries for the system default version of Python.  On Ubuntu 18 this is Python 3.6,  on Ubuntu 20.04, Python 3.8.  If you also installed other versions of Python, it is recommended to use the full path the to system default Python: `/usr/bin/python3.6 -m venv openvino_env` on Ubuntu 18, `/usr/bin/python3.8 -m venv openvino_env` on Ubuntu 20.
 
 * If you use Anaconda or Minoconda, see the [[Conda]] wiki page.
+
+* On Ubuntu, if you see the error **"libpython3.7m.so.1.0: cannot open shared object file: No such object or directory"** please install
+  the required package using `apt install libpython3.7-dev`.
