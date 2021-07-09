@@ -41,7 +41,7 @@ This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pi
 
 ```bash
 python -m pip install --upgrade pip
-pip install -r requirements.txt --use-deprecated=legacy-resolver
+pip install -r requirements.txt
 ```
 
 ## 8. Install the virtualenv Kernel in Jupyter
@@ -70,4 +70,4 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 * If you have Apple M1, please see the [community discussion page](https://github.com/openvinotoolkit/openvino_notebooks/discussions/10) about using Rosetta* 2
 
-* If you use Anaconda or Minoconda, see the [[Conda]] wiki page.
+* If you use Anaconda or Miniconda, see the [[Conda]] wiki page.
