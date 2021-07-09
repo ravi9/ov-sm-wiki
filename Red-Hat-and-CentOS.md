@@ -35,11 +35,11 @@ cd openvino_notebooks
 
 ## 5. Install the Packages
 
-This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, use pip's legacy dependency resolver to avoid dependency conflicts.
+This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, install the required dependencies. 
 
 ```bash
 python -m pip install --upgrade pip
-pip install -r requirements.txt --use-deprecated=legacy-resolver
+pip install -r requirements.txt
 ```
 
 ## 6. Install the virtualenv Kernel in Jupyter
@@ -66,4 +66,4 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 ## Troubleshooting
 
-* If you use Anaconda or Minoconda, see the [[Conda]] wiki page.
+* If you use Anaconda or Miniconda, see the [[Conda]] wiki page.
