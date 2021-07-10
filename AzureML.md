@@ -32,7 +32,7 @@ cd openvino_notebooks
 ### Step 5: Upgrade pip and Install Requirements
 ```bash
 python -m pip install --upgrade pip
-pip install -r requirements.txt --use-deprecated=legacy-resolver
+pip install -r requirements.txt
 ```
 
 ### Step 6: Add openvino_env to PATH
