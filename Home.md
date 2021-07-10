@@ -12,6 +12,7 @@ These links go to pages that include instructions on how to install OpenVINO not
 * [macOS](macOS)
 * Linux
   * [Ubuntu](Ubuntu) 
+  * [Red Hat, CentOS, Amazon Linux and Fedora](Red-Hat-and-CentOS)
  
 
 ### Guides for using specific Python distributions
@@ -21,3 +22,4 @@ These links go to pages that include instructions on how to install OpenVINO not
 ### Guides for Cloud Service Providers
 
 * [Installation with AzureML](AzureML)
+* [Installation with Sagemaker](Sagemaker)
