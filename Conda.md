@@ -29,7 +29,6 @@ Install OpenVINO, Jupyter, and other required packages to run the notebooks.
 
 ```bash
 # Upgrade pip to the latest version to ensure compatibility with all dependencies
-# Use pip's legacy resolver to prevent dependency conflicts
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
