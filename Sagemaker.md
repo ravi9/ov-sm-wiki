@@ -42,7 +42,7 @@ source ~/anaconda3/etc/profile.d/conda.sh
 conda activate openvino_env
 cd SageMaker/openvino_notebooks
 python -m pip install --upgrade pip
-pip install -r requirements.txt --use-deprecated=legacy-resolver
+pip install -r requirements.txt
 set PATH="/home/ec2-user/anaconda3/envs/openvino_env/bin;%PATH%"
 python -m ipykernel install --user --name openvino_env
 exit
