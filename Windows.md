@@ -13,11 +13,18 @@ https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
 * Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
 
-## 3. Install the Notebooks
+## 3. Install C++ (For Python 3.8)
+
+This step can be skipped for Python 3.6 and 3.7
+
+* Download [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+* Double click on the installer to run it, and follow the steps in the installer.
+
+## 4. Install the Notebooks
 
 After installing Python 3 and Git, run each step below using _Command Prompt (cmd.exe)_, not _PowerShell_. Note: If OpenVINO is installed globally, please do not run any of these commands in a terminal where setupvars.bat is sourced.
 
-## 4. Create a Virtual Environment
+## 5. Create a Virtual Environment
 
 Note: If you already installed openvino-dev and activated the openvino_env environment, you can skip to [Step 6](#6-clone-the-repository). If you use Anaconda, please see the [Conda guide](https://github.com/openvinotoolkit/openvino_notebooks/wiki/Conda).
 
@@ -25,20 +32,20 @@ Note: If you already installed openvino-dev and activated the openvino_env envir
 python -m venv openvino_env
 ```
 
-## 5. Activate the Environment
+## 6. Activate the Environment
 
 ```bash
 openvino_env\Scripts\activate
 ```
 
-## 6. Clone the Repository
+## 7. Clone the Repository
 
 ```bash
 git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 cd openvino_notebooks
 ```
 
-## 7. Install the Packages
+## 8. Install the Packages
 
 This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, install the required dependencies.
 
@@ -47,13 +54,13 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 8. Install the virtualenv Kernel in Jupyter
+## 9. Install the virtualenv Kernel in Jupyter
 
 ```bash
 python -m ipykernel install --user --name openvino_env
 ```
 
-## 9. Launch the Notebooks!
+## 10. Launch the Notebooks!
 
 To launch a single notebook, like the Monodepth notebook
 
