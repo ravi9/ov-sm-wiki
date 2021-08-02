@@ -1,4 +1,3 @@
-# Docker Guide
 To run notebooks inside a Linux-based Docker container, please use the provided [Dockerfile](https://github.com/openvinotoolkit/openvino_notebooks/blob/main/Dockerfile). 
 
 ## Step 0: Clone the Notebooks Repo
