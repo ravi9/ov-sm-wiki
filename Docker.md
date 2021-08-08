@@ -15,6 +15,7 @@ docker build -t openvino_notebooks .
 ```
 docker run -it -p 8888:8888 openvino_notebooks
 ```
+> **NOTE:** If you plan to run model training notebooks, allocate additional memory by running `docker run -it -p 8888:8888 --shm-size 8G openvino_notebooks`
 
 ## Step 3: Open Browser
 Copy the URL printed in the terminal and open in a browser. If it is a remote machine, replace 127.0.0.1 with the correct IP address. 
