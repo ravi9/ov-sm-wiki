@@ -1,4 +1,4 @@
-## 1. Install Python and Git
+## 1. Install Python, Git and GPU drivers (optional)
 
 You may need to install some additional libraries on Ubuntu Linux. These steps work on a clean install of Ubuntu Desktop 20.04, and should also work on Ubuntu 18.04 and 20.10, and on Ubuntu Server.
 
