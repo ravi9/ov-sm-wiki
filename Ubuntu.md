@@ -8,6 +8,14 @@ sudo apt-get upgrade
 sudo apt-get install python3-venv build-essential python3-dev git-all
 ```
 
+If you have a CPU with an Intel Integrated Graphics Card, you can install the [Intel Graphics Compute Runtime](https://github.com/intel/compute-runtime) to enable inference on this device. The command for Ubuntu 20.04 is:
+
+```
+sudo apt-get install intel-opencl-icd
+```
+
+See the [documentation](https://github.com/intel/compute-runtime) for other installation methods and instructions for other versions.
+
 ## 2. Install the Notebooks
 
 After installing Python 3 and Git, run each step below in a terminal. Note: If OpenVINO is installed globally, please do not run any of these commands in a terminal where setupvars.sh is sourced.
