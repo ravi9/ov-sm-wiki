@@ -13,7 +13,7 @@ https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
 * Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
 
-## 3. Install C++ (For Python 3.8)
+## 3. Install C++ Redistributable (For Python 3.8)
 
 This step can be skipped for Python 3.6 and 3.7
 
