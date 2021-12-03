@@ -80,3 +80,6 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 * On Ubuntu, if you see the error **"libpython3.7m.so.1.0: cannot open shared object file: No such object or directory"** please install
   the required package using `apt install libpython3.7-dev`.
+
+* On Ubuntu, if you see the error **"OSError('sndfile library not found') OSError: sndfile library not found"** please install
+  the required package using `apt install libsndfile1`.
