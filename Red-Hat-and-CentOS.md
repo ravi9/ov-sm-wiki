@@ -33,6 +33,7 @@ source openvino_env/bin/activate
 ```bash
 git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
 cd openvino_notebooks
+```
 
 ## 6. Install the Packages
 
