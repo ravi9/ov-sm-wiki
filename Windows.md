@@ -40,10 +40,11 @@ openvino_env\Scripts\activate
 
 ## 7. Clone the Repository
 
+> Note: We are currently experiencing an issue with the repository. Please use `git clone --depth=1` while we are looking into this.
+
 ```bash
-git clone https://github.com/openvinotoolkit/openvino_notebooks.git
+git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
 cd openvino_notebooks
-```
 
 ## 8. Install the Packages
 
