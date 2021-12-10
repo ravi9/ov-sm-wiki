@@ -26,14 +26,15 @@ python3 -m venv openvino_env
 source openvino_env/bin/activate
 ```
 
-## 4. Clone the Repository
+## 5. Clone the Repository
+
+> Note: We are currently experiencing an issue with the repository. Please use `git clone --depth=1` while we are looking into this.
 
 ```bash
-git clone https://github.com/openvinotoolkit/openvino_notebooks.git
+git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
 cd openvino_notebooks
-```
 
-## 5. Install the Packages
+## 6. Install the Packages
 
 This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, install the required dependencies. 
 
@@ -42,13 +43,13 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 6. Install the virtualenv Kernel in Jupyter
+## 7. Install the virtualenv Kernel in Jupyter
 
 ```bash
 python -m ipykernel install --user --name openvino_env
 ```
 
-### 7. Launch the Notebooks!
+### 8. Launch the Notebooks!
 
 To launch a single notebook, like the Monodepth notebook
 
