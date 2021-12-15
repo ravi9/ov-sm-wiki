@@ -10,6 +10,8 @@ sudo apt-get install python3-venv build-essential python3-dev git-all
 
 If you have a CPU with an Intel Integrated Graphics Card, you can install the [Intel Graphics Compute Runtime](https://github.com/intel/compute-runtime) to enable inference on this device. The command for Ubuntu 20.04 is:
 
+> Note: Only execute this command if you do not yet have OpenCL drivers installed.
+
 ```
 sudo apt-get install intel-opencl-icd
 ```
@@ -36,7 +38,7 @@ source openvino_env/bin/activate
 
 ## 5. Clone the Repository
 
-> Note: We are currently experiencing an issue with the repository. Please use `git clone --depth=1` while we are looking into this.
+> Note: Using the `--depth=1` option for git clone reduces download size.
 
 ```bash
 git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
