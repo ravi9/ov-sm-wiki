@@ -29,8 +29,10 @@ openvino_env\Scripts\activate
 
 ### Step 2: Clone the Repository
 
+> Note: Using the --depth=1 option for git clone reduces download size.
+
 ```bash
-git clone https://github.com/openvinotoolkit/openvino_notebooks.git
+git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
 ```
 
 ### Step 3: Go to the Notebooks Directory
