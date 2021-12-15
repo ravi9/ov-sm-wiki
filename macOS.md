@@ -30,7 +30,7 @@ openvino_env/bin/activate
 
 ## 6. Clone the Repository
 
-> Note: We are currently experiencing an issue with the repository. Please use `git clone --depth=1` while we are looking into this.
+> Note: Using the `--depth=1` option for git clone reduces download size.
 
 ```bash
 git clone --depth=1 https://github.com/openvinotoolkit/openvino_notebooks.git
