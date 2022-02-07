@@ -4,13 +4,13 @@ Skip Steps 1 and 2 if you already installed Python3 and Git on Windows.
 
 > **NOTE:** The version of Python that is available in the Microsoft Store is not recommended. It may require installation of additional packages to work well with OpenVINO and the notebooks.
 
-* Download a Python installer from python.org. Choose Python 3.6, 3.7 or 3.8, and make sure to pick an x86-64 version. For example, this 3.7 installer: 
-https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
+* Download a Python installer from python.org. Choose Python 3.6, 3.7 or 3.8, and make sure to pick a 64 bit version. For example, this 3.8 installer: 
+https://www.python.org/ftp/python/3.8.8/python-3.8.8-amd64.exe
 * Double click on the installer to run it, and follow the steps in the installer. Check the box to add Python to your PATH, and to install `py`. At the end of the installer, there is an option to disable the PATH length limit. It is recommended to click this.
 
 ## 2. Install Git 
 
-* Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe)
+* Download [GIT](https://git-scm.com/) from [this link](https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe)
 * Double click on the installer to run it, and follow the steps in the installer.
 
 ## 3. Install C++ Redistributable (For Python 3.8)
