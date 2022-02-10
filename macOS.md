@@ -25,7 +25,7 @@ python3 -m venv openvino_env
 ## 5. Activate the Environment
 
 ```bash
-openvino_env/bin/activate
+source openvino_env/bin/activate
 ```
 
 ## 6. Clone the Repository
