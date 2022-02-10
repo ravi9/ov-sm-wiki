@@ -4,8 +4,6 @@ Skip Steps 1 and 2 if you already installed Python 3 and Git on macOS.
 
 * Download a Python installer from python.org. Choose Python 3.6, 3.7 or 3.8. For example, this 3.7 installer: https://www.python.org/ftp/python/3.7.9/python-3.7.9-macosx10.9.pkg
 * Double click on the installer to run it, and follow the steps in the installer. Please read the "Important Information" displayed during installation for information about SSL/TLS certificate validation and the running the "Install Certificates.command". These certificates are required to run some of the notebooks.
-* For Apple M1 user, please follow the Homebrew install steps and install Python 3.7.x.: https://docs.brew.sh/FAQ#why-is-the-default-installation-prefix-opthomebrew-on-apple-silicon 
-* Note: If you are using Apple M1, various optimization such as quantization may fail and also have reduced performance. 
 
 ### 2. Install Git 
 
@@ -72,6 +70,6 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 ## Troubleshooting
 
-* If you have Apple M1, please see the [community discussion page](https://github.com/openvinotoolkit/openvino_notebooks/discussions/10) about using Rosetta* 2
+* If you have Apple M1, please see the [community discussion page](https://github.com/openvinotoolkit/openvino_notebooks/discussions/10) about using Rosetta* 2. For example, there are known issues with the use of model optimizer, and thus you may need to convert the model on x86 machines in prior.
 
 * If you use Anaconda or Miniconda, see the [[Conda]] wiki page.
