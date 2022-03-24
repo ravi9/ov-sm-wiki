@@ -11,7 +11,7 @@ Once the compute instance is running, open the terminal and then run Steps 1-8 b
 
 ### Step 1: Create a Conda Environment
 ```bash
-conda create --name openvino_env python=3.6 -y
+conda create --name openvino_env python=3.8 -y
 ```
 
 ### Step 2: Activate the Environment
