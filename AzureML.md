@@ -2,7 +2,7 @@
 The steps below assume that you have an Azure account and access to the [Azure ML Studio](https://ml.azure.com/). The entire one-time setup process may take up to 20 minutes.
 
 ### Step 0: Add a Compute Instance
-In Azure ML Studio, [add a compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python) and pick any CPU-based instance (No GPU required). <br>
+In Azure ML Studio, [add a compute instance](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python) and pick any CPU-based instance (No GPU required, and we recommended at least 4 cores and 8GB of RAM). <br>
 <img width="657" alt="azure1" src="https://user-images.githubusercontent.com/15709723/117559437-17463180-b03a-11eb-9e8d-d4539d1502f2.png">
 
 Once the compute instance is running, open the terminal and then run Steps 1-8 below.
