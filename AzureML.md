@@ -54,3 +54,6 @@ Select a notebook: <br>
 
 Then run all cells: <br>
 <img width="558" alt="azure6a" src="https://user-images.githubusercontent.com/15709723/117580973-37640800-b0af-11eb-91ae-7194b9b4e505.png">
+
+Note: Please also make sure you are using the 'openvino_env' environment (not Python 3). That's all :) Happy coding. 
+![image](https://user-images.githubusercontent.com/1720147/162268538-f0012ff1-af5b-49ec-96df-9d176f019e0f.png)
