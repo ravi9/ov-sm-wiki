@@ -16,7 +16,7 @@ If you have a CPU with an Intel Integrated Graphics Card, you can install the [I
 sudo apt-get install intel-opencl-icd
 ```
 
-Also, please follow the instructions discussed here to ensure you enabled the right permissions. (https://github.com/openvinotoolkit/openvino_notebooks/discussions/540). 
+Also, please follow the instructions discussed [here](https://github.com/openvinotoolkit/openvino_notebooks/discussions/540) to ensure you enabled the right permissions.  
 
 See the [documentation](https://github.com/intel/compute-runtime) for other installation methods and instructions for other versions.
 
