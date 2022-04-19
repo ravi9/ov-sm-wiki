@@ -16,6 +16,8 @@ If you have a CPU with an Intel Integrated Graphics Card, you can install the [I
 sudo apt-get install intel-opencl-icd
 ```
 
+Also, please follow the instructions discussed here to ensure you enabled the right permissions. (https://github.com/openvinotoolkit/openvino_notebooks/discussions/540). 
+
 See the [documentation](https://github.com/intel/compute-runtime) for other installation methods and instructions for other versions.
 
 ## 2. Install the Notebooks
@@ -87,3 +89,5 @@ In Jupyter Lab, select a notebook from the file browser using the left sidebar. 
 
 * On Ubuntu, if you see the error **"OSError('sndfile library not found') OSError: sndfile library not found"** please install
   the required package using `apt install libsndfile1`.
+
+* On Ubuntu, if the GPU device is not found, please follow the instruction here to ensure you have installed the drivers and set the right permission. (https://github.com/openvinotoolkit/openvino_notebooks/discussions/540) 
