@@ -59,13 +59,7 @@ To run notebooks that demonstrate OpenVINO Inference Engine, you only need to in
 pip install notebook
 ```
 
-### Step 5: Install the virtualenv Kernel in Jupyter
-
-```bash
-python -m ipykernel install --user --name openvino_env
-```
-
-### Step 6: Launch the Notebooks!
+### Step 5: Launch the Notebooks!
 
 ```bash
 # To launch a single notebook, for example monodepth:
