@@ -47,7 +47,7 @@ Note that at the moment you need to run this command again if you open a new Ana
 set PATH=C:\Users\<username>\Miniconda3\envs\openvino_env\Lib\site-packages\openvino\libs;%PATH%                           
 ```
 
-### Step 7 (conda): Launch the Notebooks!
+### Step 6 (conda): Launch the Notebooks!
 
 ```bash
 # To launch a single notebook
