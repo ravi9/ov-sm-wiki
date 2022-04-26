@@ -56,13 +56,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 7. Install the virtualenv Kernel in Jupyter
-
-```bash
-python -m ipykernel install --user --name openvino_env
-```
-
-### 8. Launch the Notebooks!
+## 7. Launch the Notebooks!
 
 To launch a single notebook, like the Monodepth notebook
 
