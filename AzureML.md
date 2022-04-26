@@ -40,12 +40,7 @@ pip install -r requirements.txt
 set PATH="/anaconda/envs/openvino_env/bin;%PATH%"
 ```
 
-### Step 7: Install the virtualenv Kernel in Jupyter
-```bash
-python -m ipykernel install --user --name openvino_env
-```
-
-### Step 8: Run the Notebooks!
+### Step 7: Run the Notebooks!
 To run the notebooks, click on Notebooks and refresh your Files: <br>
 <img width="546" alt="azure3a" src="https://user-images.githubusercontent.com/15709723/117580814-a725c300-b0ae-11eb-93bf-007779c26075.png">
 
