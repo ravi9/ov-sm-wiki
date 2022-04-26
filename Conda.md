@@ -33,13 +33,7 @@ python -m pip install --upgrade pip==21.3.*
 pip install -r requirements.txt
 ```
 
-### Step 5: Install the virtualenv Kernel in Jupyter
-
-```bash
-python -m ipykernel install --user --name openvino_env
-```
-
-### Step 6 (conda): Add the OpenVINO library to your PATH
+### Step 5 (conda): Add the OpenVINO library to your PATH
 
 > This step is only for Windows. Skip this step for macOS and Linux.
 
