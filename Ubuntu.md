@@ -49,10 +49,11 @@ cd openvino_notebooks
 
 ## 6. Install the Packages
 
-This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, install the required dependencies. 
+This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pip to the latest version. Then, install the required dependencies.
 
 ```bash
-python -m pip install --upgrade pip wheel setuptools
+python -m pip install --upgrade pip 
+pip install -r wheel setuptools
 pip install -r requirements.txt
 ```
 
