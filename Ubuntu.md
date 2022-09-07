@@ -53,7 +53,7 @@ This step installs OpenVINO and dependencies like Jupyter Lab. First, upgrade pi
 
 ```bash
 python -m pip install --upgrade pip 
-pip install -r wheel setuptools
+pip install wheel setuptools
 pip install -r requirements.txt
 ```
 
