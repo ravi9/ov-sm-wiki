@@ -29,6 +29,7 @@ docker run -it --device /dev/dri:/dev/dri --device-cgroup-rule='c 189:* rmw' -v 
 docker run -it --device /dev/dri:/dev/dri --rm -p 8888:8888 openvino_notebooks
 ```
 > **NOTE:** If your host system is Ubuntu 20, follow the [Configuration Guide for the Intel® Graphics Compute Runtime for OpenCL™ on Ubuntu* 20.04](https://github.com/openvinotoolkit/docker_ci/blob/master/configure_gpu_ubuntu20.md).
+
 > **NOTE:** If you plan to run model training notebooks, allocate additional memory by running `docker run -it -p 8888:8888 --shm-size 8G openvino_notebooks`
 
 ## Step 3: Open Browser
