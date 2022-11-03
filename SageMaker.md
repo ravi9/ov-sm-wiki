@@ -62,11 +62,11 @@ pip install -r requirements.txt
 
 - Choose Image - `Data Science 3.0`, Kernel - `Python [conda env:openvino_env]`, Instance type - your desired compute instance.
 
-<img width="400" alt="Choose Image" src="https://user-images.githubusercontent.com/4837253/199812540-c52ea429-9d53-4bdb-aec1-a0b8616c6fcc.png">
+<img width="500" alt="Choose Image" src="https://user-images.githubusercontent.com/4837253/199812540-c52ea429-9d53-4bdb-aec1-a0b8616c6fcc.png">
 
-<img width="400" alt="Choose Kernel" src="https://user-images.githubusercontent.com/4837253/199812587-20c3e360-3a31-4032-b17a-8b242d6ccc26.png">
+<img width="500" alt="Choose Kernel" src="https://user-images.githubusercontent.com/4837253/199812587-20c3e360-3a31-4032-b17a-8b242d6ccc26.png">
 
-<img width="400" alt="Choose Compute" src="https://user-images.githubusercontent.com/4837253/199812713-32074aa7-8190-43c8-815c-231542c7b286.png">
+<img width="500" alt="Choose Compute" src="https://user-images.githubusercontent.com/4837253/199812713-32074aa7-8190-43c8-815c-231542c7b286.png">
 
 
 **_Note:_** Please also make sure you are using the `Python [conda env:openvino_env]` environment (not Python 3).
