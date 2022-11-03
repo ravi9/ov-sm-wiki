@@ -53,7 +53,7 @@ git clone https://github.com/openvinotoolkit/openvino_notebooks.git
 cd openvino_notebooks
 # Install OpenVINO and OpenVINO notebook Requirements
 python -m pip install --upgrade pip
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 ### Step 4: Run the Notebooks!
